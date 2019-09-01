@@ -1,4 +1,5 @@
-certbot_certonly_webroot 'single-cert' do
+certbot 'single-cert' do
+  webroot true
   webroot_path '/var/www/certbot'
   email 'root@localhost'
   domains ['mysite1.dev']
@@ -6,7 +7,8 @@ certbot_certonly_webroot 'single-cert' do
   agree_tos true
 end
 
-certbot_certonly_webroot 'multi-cert' do
+certbot 'multi-cert' do
+  webroot true
   webroot_path '/var/www/certbot'
   email 'root@localhost'
   domains ['mysite2.dev', 'js.mysite2.dev', 'css.mysite2.dev']

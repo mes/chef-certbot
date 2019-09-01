@@ -24,7 +24,7 @@ Add the cookbook to the run list:
 Finally create a custom recipe, such as this:
 
 ```text
-certbot_certonly_webroot 'something' do
+certbot 'something' do
    webroot_path '/var/www/certbot'
    email 'devops@example.com'
    domains ['domain1.com', 'domain2.com']
