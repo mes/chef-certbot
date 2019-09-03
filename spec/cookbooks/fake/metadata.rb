@@ -7,5 +7,3 @@ long_description 'fake cookbook'
 version '0.1.0'
 
 depends 'certbot'
-depends 'apache2'
-depends 'nginx'

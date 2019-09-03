@@ -6,10 +6,5 @@ description 'Installs/Configures certbot'
 long_description 'Installs/Configures certbot'
 version '0.2.0'
 
-issues_url 'https://github.com/inviqa/chef-certbot/issues'
-source_url 'https://github.com/inviqa/chef-certbot'
-
-depends 'apache2'
-depends 'cron'
-depends 'nginx'
-depends 'yum-epel'
+issues_url 'https://github.com/mes/chef-certbot/issues'
+source_url 'https://github.com/mes/chef-certbot'
